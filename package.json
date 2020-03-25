@@ -1,0 +1,17 @@
+{
+  "name": "newzoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffered-reader": "^1.0.1",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "n-readlines": "^1.0.0"
+  }
+}
