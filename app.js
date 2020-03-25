@@ -4,9 +4,7 @@ const fileName = "packages.txt";
 const app = express();
 const port = 3000;
 
-
-
-const fieldsToExtract = ["Package", "Version", "Description", "SHA256", "Dependencies", "Recommends", "conflicts"];
+const fieldsToExtract = ["Package", "Version", "Description", "SHA256", "Dependencies", "Recommends", "Conflicts"];
 
 
 function findPackage(packageName) {
@@ -34,7 +32,6 @@ function findPackage(packageName) {
     }
 }
 
-//findPackage("apt");
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
